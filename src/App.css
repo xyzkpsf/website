@@ -1,5 +1,7 @@
 :root {
-  --main-color: #2e2929;
+  --main-color: #121212;
+  --content-color: #333;
+  --hover-color: #333;
   --title-font-size: 25px;
   --header-font-size: 20px;
   --content-font-size: 15px;
@@ -7,7 +9,7 @@
 
 * {
   transition: all 1s ease;
-  color: #5d5c61;
+  color: var(--main-color);
 }
 
 *::-webkit-scrollbar {
@@ -52,7 +54,7 @@
   position: fixed;
   top: 0;
   border-bottom: 3px solid var(--main-color);
-  z-index: 3;
+  z-index: 4;
 }
 
 .topbar ul {
@@ -68,6 +70,7 @@
 
 .topbar a:hover {
   font-weight: 500;
+  color: var(--hover-color);
 }
 
 .home {
@@ -87,17 +90,17 @@
 
 #eName {
   font-size: 10vmax;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: "Do Hyeon", sans-serif;
   text-align: center;
 }
 #cName {
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-family: "ZCOOL QingKe HuangYou", cursive;
   font-size: 8vmax;
   text-align: center;
 }
 
 .homeBox {
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: "Do Hyeon", sans-serif;
   margin-top: 20px;
   text-align: center;
   font-size: 5vmax;
@@ -109,11 +112,6 @@
 
 .learnMore {
   text-align: center;
-}
-
-.learnMore a {
-  text-decoration: none;
-  color: black;
 }
 
 .about {
@@ -139,14 +137,14 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 5rem 0;
+  margin: 1rem 0;
 }
 
-.firstRow {
+.firstRow,
+.secondRow {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-bottom: 100px;
   flex-wrap: wrap;
 }
 
@@ -163,12 +161,13 @@
   text-align: left;
   flex-direction: column;
   justify-content: center;
+  color: var(--content-color);
 }
 
 .pImage {
   filter: grayscale(100%) brightness(0.45) blur(1.5px);
-  width: 250px;
-  height: 250px;
+  width: 240px;
+  height: 165px;
 }
 
 .pImage:hover {
@@ -180,7 +179,7 @@
 }
 
 .ptitle {
-  font-size: var(--title-font-size);
+  font-size: var(--header-font-size);
 }
 
 .description {
@@ -227,6 +226,7 @@
   padding: 10px;
   border: 2px solid;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .emailBtn a {
@@ -249,4 +249,18 @@
 
 .avatar img {
   max-height: fit-content;
+}
+
+.linkContainter {
+  width: 150px;
+  align-self: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-content: center;
+  margin: 10px 0;
+}
+.linkBtn {
+  margin-top: 5px;
+  width: 40px;
 }

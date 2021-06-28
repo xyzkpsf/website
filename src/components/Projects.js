@@ -20,7 +20,7 @@ export default function Projects() {
                 href="https://github.com/xyzkpsf/Gitlet"
                 target="_blank"
               >
-                <img src="image/GitHub-Mark-32px.png" alt="" />
+                <img src="image/GitHub-Mark-64px.png" alt="" />
               </a>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default function Projects() {
                   href="https://github.com/xyzkpsf/Math-Arithmetic-Practice"
                   target="_blank"
                 >
-                  <img src="image/GitHub-Mark-32px.png" alt="" />
+                  <img src="image/GitHub-Mark-64px.png" alt="" />
                 </a>
                 <a
                   className="pgit"
@@ -52,7 +52,7 @@ export default function Projects() {
           <div className="proj" id="3">
             <img className="pImage" src="image/sorting.jpg" alt="" />
             <div className="pDetail">
-              <p className="ptitle">Sorting Slgorithms Visualization</p>
+              <p className="ptitle">Sorting Visualization</p>
               <p className="description">
                 Visualization of different sorting algorithms on different
                 images.
@@ -63,7 +63,7 @@ export default function Projects() {
                   href="https://github.com/xyzkpsf/sorting-visualizer"
                   target="_blank"
                 >
-                  <img src="image/GitHub-Mark-32px.png" alt="" />
+                  <img src="image/GitHub-Mark-64px.png" alt="" />
                 </a>
                 <a
                   className="pgit"
@@ -78,13 +78,58 @@ export default function Projects() {
         </div>
         <div className="secondRow">
           <div className="proj" id="4">
-            box
+            <img className="pImage" src="image/pronunciation.jpg" alt="" />
+            <div className="pDetail">
+              <p className="ptitle">Pronunciation Practice</p>
+              <p className="description">
+                A speech recognition application for kids to practice
+                pronunciation when learing new language.
+              </p>
+              <div className="logo">
+                <a
+                  className="pgit"
+                  href="https://github.com/xyzkpsf/Pronunciation-Practice"
+                  target="_blank"
+                >
+                  <img src="image/GitHub-Mark-64px.png" alt="" />
+                </a>
+              </div>
+            </div>
           </div>
           <div className="proj" id="5">
-            box
+            <img className="pImage" src="image/pronunciation.jpg" alt="" />
+            <div className="pDetail">
+              <p className="ptitle">Robust CV Classifier</p>
+              <p className="description">
+                A robust neural network computer vision classifiers for low
+                resolution images.
+              </p>
+              <div className="logo">
+                <a
+                  className="pgit"
+                  href="https://github.com/xyzkpsf/robust-computer-vision-classifiers-for-low-resolution-images"
+                  target="_blank"
+                >
+                  <img src="image/GitHub-Mark-64px.png" alt="" />
+                </a>
+              </div>
+            </div>
           </div>
           <div className="proj" id="6">
-            box
+            <img className="pImage" src="image/pronunciation.jpg" alt="" />
+            <div className="pDetail">
+              <p className="ptitle">Weather Search Web.</p>
+              <p className="description">A weather search web app.</p>
+              <div className="logo">
+                <a
+                  className="pgit"
+                  href="https://github.com/xyzkpsf/Weather-web-app"
+                  target="_blank"
+                >
+                  <img src="image/GitHub-Mark-64px.png" alt="" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

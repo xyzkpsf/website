@@ -12,9 +12,6 @@ export default function Topbar() {
           <a href="#projects">Projects</a>
         </li>
         <li>
-          <a href="#resume">Resumé</a>
-        </li>
-        <li>
           <a href="#contact">Contact</a>
         </li>
       </ul>
