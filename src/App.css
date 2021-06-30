@@ -150,8 +150,8 @@
 
 .proj {
   width: 15vmax;
-  min-width: 250px;
-  min-height: 250px;
+  min-width: 300px;
+  min-height: 200px;
   margin: 10px;
 }
 
@@ -166,14 +166,14 @@
 
 .pImage {
   filter: grayscale(100%) brightness(0.45) blur(1.5px);
-  width: 240px;
+  width: 300px;
   height: 165px;
 }
 
 .pImage:hover {
   filter: none;
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: all ease 2;
   margin-bottom: 10px;
 }
@@ -242,7 +242,7 @@
 
 .intro {
   max-width: 700px;
-  margin: 10px auto;
+  margin: 20px auto;
   font-size: var(--header-font-size);
   text-align: left;
 }

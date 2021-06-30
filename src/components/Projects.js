@@ -12,8 +12,8 @@ export default function Projects() {
             <div className="pDetail">
               <p className="ptitle">Gitlet</p>
               <p className="description">
-                A version-control system written by Java that mimics some of the
-                basic features of the popular system Git.
+                A version-control system mimics some of the basic features of
+                the popular system Git.
               </p>
               <a
                 className="pgit"
@@ -25,7 +25,7 @@ export default function Projects() {
             </div>
           </div>
           <div className="proj" id="2">
-            <img className="pImage" src="image/Math Practice.JPG" alt="" />
+            <img className="pImage" src="image/Math Practice.png" alt="" />
             <div className="pDetail">
               <p className="ptitle">Math Arithmetic Practice</p>
               <p className="description">
@@ -41,7 +41,7 @@ export default function Projects() {
                 </a>
                 <a
                   className="pgit"
-                  href="https://github.com/xyzkpsf/Math-Arithmetic-Practice"
+                  href="https://xyzkpsf.github.io/Math-Arithmetic-Practice/"
                   target="_blank"
                 >
                   <img src="image/link.png" alt="" />
@@ -50,12 +50,11 @@ export default function Projects() {
             </div>
           </div>
           <div className="proj" id="3">
-            <img className="pImage" src="image/sorting.jpg" alt="" />
+            <img className="pImage" src="image/sorting.png" alt="" />
             <div className="pDetail">
               <p className="ptitle">Sorting Visualization</p>
               <p className="description">
-                Visualization of different sorting algorithms on different
-                images.
+                A website illustrates sorting algorithms animations on images.
               </p>
               <div className="logo">
                 <a
@@ -67,7 +66,7 @@ export default function Projects() {
                 </a>
                 <a
                   className="pgit"
-                  href="https://github.com/xyzkpsf/Math-Arithmetic-Practice"
+                  href="https://xyzkpsf.github.io/sorting-visualizer/"
                   target="_blank"
                 >
                   <img src="image/link.png" alt="" />
@@ -78,12 +77,12 @@ export default function Projects() {
         </div>
         <div className="secondRow">
           <div className="proj" id="4">
-            <img className="pImage" src="image/pronunciation.jpg" alt="" />
+            <img className="pImage" src="image/sayoutloud.jpg" alt="" />
             <div className="pDetail">
               <p className="ptitle">Pronunciation Practice</p>
               <p className="description">
                 A speech recognition application for kids to practice
-                pronunciation when learing new language.
+                pronunciation.
               </p>
               <div className="logo">
                 <a
@@ -97,12 +96,12 @@ export default function Projects() {
             </div>
           </div>
           <div className="proj" id="5">
-            <img className="pImage" src="image/pronunciation.jpg" alt="" />
+            <img className="pImage" src="image/CV.png" alt="" />
             <div className="pDetail">
-              <p className="ptitle">Robust CV Classifier</p>
+              <p className="ptitle">Robust Image Classifier</p>
               <p className="description">
-                A robust neural network computer vision classifiers for low
-                resolution images.
+                An adversarial robust classifier based on low-resolution
+                specific neural network architecture.
               </p>
               <div className="logo">
                 <a
@@ -116,7 +115,7 @@ export default function Projects() {
             </div>
           </div>
           <div className="proj" id="6">
-            <img className="pImage" src="image/pronunciation.jpg" alt="" />
+            <img className="pImage" src="image/weather.png" alt="" />
             <div className="pDetail">
               <p className="ptitle">Weather Search Web.</p>
               <p className="description">A weather search web app.</p>

@@ -15,8 +15,11 @@ export default function Contact() {
         </div>
 
         <div className="linkBtn">
-          <a href="https://www.linkedin.com/in/xiaoyi-zhu/" target="_blank">
-            <img src="image/cv.png" alt="" />
+          <a
+            href="https://drive.google.com/file/d/1AP3vEco8KnRTLCIAKTMXNtNNuvcuoYXN/view?usp=sharing"
+            target="_blank"
+          >
+            <img src="image/resume.png" alt="" />
           </a>
         </div>
         <div className="linkBtn">

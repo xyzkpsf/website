@@ -13,14 +13,15 @@ export default function About() {
             solve real life problems. During my time at Berkeley, my interests
             were mainly in Machine Learning and Artificial Intelligence. After
             graduated, in order to create more accessible applications, I
-            started to learn the front-end technologies such as HTML, CSS,
+            started to learn front-end technologies such as HTML, CSS,
             JavaScript and React.
           </p>
           <br />
           <p>
-            In addition to programming, in my free time, I will play scientific
-            experiments with my sons, listen to folk music, cook spicy food, and
-            wait for the new season of Rick and Morty.
+            In addition to programming, in my free time, I enjoying playing
+            funny scientific experiments with my sons, listening folk music,
+            cooking spicy food, and waiting for the new season of Rick and
+            Morty.
           </p>
         </div>
       </div>
