@@ -8,7 +8,7 @@
 }
 
 * {
-  transition: all 1s ease;
+  transition: all 1s ease-in-out;
   color: var(--main-color);
 }
 
@@ -135,17 +135,10 @@
 
 .projectBox {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin: 1rem 0;
-}
-
-.firstRow,
-.secondRow {
-  display: flex;
-  flex-direction: row;
   justify-content: space-around;
+  flex-direction: row;
   flex-wrap: wrap;
+  margin: 1rem 0;
 }
 
 .proj {
@@ -168,13 +161,14 @@
   filter: grayscale(100%) brightness(0.45) blur(1.5px);
   width: 300px;
   height: 165px;
+  border-radius: 15px;
+  margin-bottom: 10px;
 }
 
 .pImage:hover {
   filter: none;
   cursor: pointer;
-  transform: scale(1.05);
-  transition: all ease 2;
+  border-radius: 15px;
   margin-bottom: 10px;
 }
 
@@ -241,14 +235,15 @@
 }
 
 .intro {
-  max-width: 700px;
+  max-width: 800px;
   margin: 20px auto;
-  font-size: var(--header-font-size);
+  /* font-size: var(--header-font-size); */
+  font-size: 1.8vw;
   text-align: left;
 }
 
 .avatar img {
-  max-height: fit-content;
+  max-width: min-content;
 }
 
 .linkContainter {
@@ -260,6 +255,7 @@
   align-content: center;
   margin: 10px 0;
 }
+
 .linkBtn {
   margin-top: 5px;
   width: 40px;
