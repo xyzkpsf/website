@@ -1,12 +1,37 @@
+import React, { useState, useEffect } from 'react';
+
 export default function Home() {
-  return (
-    <div className="home" id="home">
-      <div className="homeTextWrapper">
-        <div id="eName">Xiaoyi Zhu</div>
-        <div id="cName">朱晓毅</div>
-      </div>
-      <div></div>
-      {/* <div className="learnMore">
+    const hellos = [
+        'Hello',
+        'Bonjour',
+        'Hola',
+        'Ciao',
+        'G\x27day',
+        `Ko\x27nichiwa`,
+        '你好',
+        'Anyeong Haseyo',
+    ];
+    const [time, setTime] = useState(Date.now());
+
+    useEffect(() => {
+        const interval = setInterval(() => setTime(Date.now()), 2000);
+        return () => {
+            clearInterval(interval);
+        };
+    }, []);
+
+    const hello = hellos[Math.floor(Math.random() * 8)];
+    console.log(Math.random());
+    console.log(hello);
+
+    return (
+        <div className="home" id="home">
+            <div className="homeTextWrapper">
+                <div id="cName">{hello}</div>
+                <div id="eName">I'm Xiaoyi Zhu</div>
+            </div>
+            <div></div>
+            {/* <div className="learnMore">
         <a href="#about">
           <div id="learnMore">Learn More</div>
           <div className="expandLogo">
@@ -23,6 +48,6 @@ export default function Home() {
           </div>
         </a>
       </div> */}
-    </div>
-  );
+        </div>
+    );
 }
