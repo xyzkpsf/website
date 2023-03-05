@@ -16,7 +16,7 @@ export default function Contact() {
 
         <div className="linkBtn">
           <a
-            href="https://drive.google.com/file/d/19XiW3MTMTG9kQ8HCOWpi0iv_rewckouy/view?usp=sharing"
+            href="https://xyzdoc.s3.us-west-2.amazonaws.com/XiaoyiZhuResume.pdf"
             target="_blank"
           >
             <img src="image/resume.png" alt="" />
